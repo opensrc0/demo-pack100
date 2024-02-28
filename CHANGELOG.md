@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/opensrc0/demo-pack100/compare/v1.0.0...v1.0.1) (2024-2-28)
+
+
+### Bug Fixes
+
+* **d:** d ([dc6b81d](https://github.com/opensrc0/demo-pack100/commit/dc6b81d220751c353c22c31c405b6f43d551a10b))
+
 # 1.0.0 (2024-2-28)
 
 
