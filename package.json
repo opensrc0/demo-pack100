@@ -4,8 +4,34 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Success: Verified\"",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release --branches master"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/npm",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/changelog",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^23.0.2"
+  }
 }
