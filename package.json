@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Success: Verified\"",
     "commit": "git-cz",
-    "semantic-release": "semantic-release --branches master"
+    "semantic-release": "semantic-release --branches main"
   },
   "author": "",
   "license": "ISC",
