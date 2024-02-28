@@ -13,13 +13,14 @@
   
   "release": {
     "branches": [
-      "main"
+      "main",
+      "next"
     ],
     "plugins": [
-      "@semantic-release/npm",
       "@semantic-release/release-notes-generator",
       "@semantic-release/commit-analyzer",
       "@semantic-release/changelog",
+      "@semantic-release/npm",
       "@semantic-release/git",
       "@semantic-release/github"
     ]
